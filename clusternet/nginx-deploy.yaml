@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: foo4
+  name: foo5
 ---
 
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-nginx
-  namespace: foo4
+  namespace: foo5
   labels:
     clusternet-app: multi-cluster-nginx
 spec:
