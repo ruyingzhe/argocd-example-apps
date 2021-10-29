@@ -1,7 +1,7 @@
 apiVersion: apps.clusternet.io/v1alpha1
 kind: Subscription
 metadata:
-  name: app-demo
+  name: app5-demo
   namespace: default
 spec:
   subscribers: 
